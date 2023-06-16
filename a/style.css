@@ -1,0 +1,20 @@
+#board {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+  }
+  
+  #resetButton {
+    display: block;
+    margin: 20px auto;
+  }
+  

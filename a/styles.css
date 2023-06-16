@@ -1,0 +1,45 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    gap: 2px;
+    background-color: #006400;
+    padding: 2px;
+  }
+  
+  .cell {
+    background-color: #228B22;
+  }
+  
+  .black {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+  }
+  
+  .white {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+  }
+  
+  .valid-move {
+    background-color: #3CB371;
+  }
+  
+  .game-over {
+    background-color: #DC143C;
+  }
+  
